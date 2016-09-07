@@ -1,0 +1,94 @@
+body{
+  background-image: url("http://wallpapercraze.com/images/wallpapers/twitch_w1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+h1{
+  text-align: center;
+  background-color: purple;
+  padding: 20px;
+  width: 100%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.main-area{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.options{
+  text-align: center;
+}
+
+.btn{
+  background-color: purple;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.btn:hover{
+  opacity: 0.8;
+  color: #fff;
+}
+
+.channels{
+  width:100%;
+  background: blue;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.channels row{
+  display: inline-block;
+}
+
+.channels img{
+  border: solid white 3px;
+  border-radius: 50px;
+  margin-top: 6px;
+  margin-bottom: 5px;
+  margin-right: 200px;
+}
+
+.channels h4{
+  margin-top: 23px;
+}
+
+.channels p{
+  margin-top: 23px;
+  margin-bottom: 20px;
+}
+
+.online{
+  background-color: green;
+}
+
+.offline{
+  background-color: red;
+}
+
+.footer{
+  margin-top: 5px;
+  text-align:center;
+}
+
+@media only screen and (max-width: 600px){
+  .btn{
+   margin-top:5px;
+}
+}
