@@ -1,3 +1,7 @@
+html, body{
+min-height: 100vh;
+}
+
 body{
   background-image: url("http://wallpapercraze.com/images/wallpapers/twitch_w1.jpeg");
   background-size: cover;
